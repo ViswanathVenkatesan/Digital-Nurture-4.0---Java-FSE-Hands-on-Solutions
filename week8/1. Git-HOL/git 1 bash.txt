@@ -1,0 +1,77 @@
+notepad++
+git version
+git config --global user.name "ViswanathVenkatesan"
+git config --global user.email "viswanathvenkatesan1328@gmail.com"
+git config --global list
+git config --global --list
+notepad++
+notepad++
+notepad++
+notepad++
+notepad.exe bash -profile
+notepad++.exe bash -profile
+git config --global core.editor"notepad++.exe -multiInst -nosession"
+git config --global core.editor"notepad++.exe -multiInst -nosession"
+git config --global core.editor "notepad++.exe -multiInst -nosession"
+git config --global -e
+git init GitDemo
+ls -al
+echo "welcome to version control" >> Welcome.txt
+ls -al
+cat Welcome.txt
+git status
+git add Welcome.TXT
+git status
+pwd
+/c/Users/viswa/OneDrive/Desktop/Welcome.txt
+cd /c/Users/viswa/OneDrive/Desktop/Welcome.txt
+git init
+cd /c/Users/viswa/OneDrive/Desktop
+cd /c/Users/viswa/OneDrive/Desktop/Welcome.txt
+cd /c/Users/viswa/OneDrive/Desktop
+mkdir Welcome
+gitinit
+git init
+git status
+mkdir Welcome
+mkdir Welcome.txt
+cd Welcome.txt
+cd /c/Users/viswa/OneDrive/Desktop
+mkdir Welcome
+cd Welcome
+git init
+git status
+git add Welcome
+git Welcome.txt
+git add welcome.txt
+git add Welcome.txt
+ls -al
+echo "Welcome to version control" >> welcome.txt
+ls -al
+git status
+git add welcome.txt
+git commit
+git status
+git add welcome.txt
+git commit -m"added welcome.txt"
+git status
+pwd
+git remote add origin https://gitlab.com/viswanathvenkatesan1328-group/gitdemo
+git branch --M main
+git branch -M main
+git push -u origin main
+git pull origin main --rebase
+git push origin main
+history
+cp ~/.bash_history ~/gitbash_history.txt && notepad ~/gitbash_history.txt
+cat ~/.bash_history > "gitbash_history_$(date +%Y-%m-%d_%H-%M-%S).txt" && history >> "gitbash_history_$(date +%Y-%m-%d_%H-%M-%S).txt"
+history -a && history -r && history > all_gitbash_history.txt
+$ cp ~/.bash_history ~/gitbash_history.txt && notepad ~/gitbash_history.txt
+echo $HISTFILE
+history -a
+history -a
+[200~history > all_gitbash_history.txt
+history > all_gitbash_history.txt
+history > /c/Users/<YourUser>/OneDrive/Desktop/all_gitbash_history.txt
+notepad /c/Users/<YourUser>/OneDrive/Desktop/all_gitbash_history.txt
+cd ~ && history -a && history -r && history > all_gitbash_history.txt && notepad all_gitbash_history.txt
