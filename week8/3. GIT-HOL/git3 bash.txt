@@ -1,0 +1,335 @@
+
+viswa@viswanath MINGW64 ~ (GitNewBranch)
+$ cd /c/Users/viswa/OneDrive/Desktop/mygitproject
+bash: cd: /c/Users/viswa/OneDrive/Desktop/mygitproject: No such file or directory
+
+viswa@viswanath MINGW64 ~ (GitNewBranch)
+$ cd /C/Users/viswa/OneDrive/Desktop/my git project
+bash: cd: too many arguments
+
+viswa@viswanath MINGW64 ~ (GitNewBranch)
+$ cd /C/Users/viswa/OneDrive/Desktop/my git project
+bash: cd: too many arguments
+
+viswa@viswanath MINGW64 ~ (GitNewBranch)
+$ ^C
+
+viswa@viswanath MINGW64 ~ (GitNewBranch)
+$ ^C
+
+viswa@viswanath MINGW64 ~ (GitNewBranch)
+$ cd /c/Users/viswa/OneDrive/Desktop/mygitproject
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (GitNewBranch)
+$ git status
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Documents/My Music/': Permission denied
+warning: could not open directory 'Documents/My Pictures/': Permission denied
+warning: could not open directory 'Documents/My Videos/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+On branch GitNewBranch
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../../.anaconda/
+        ../../../.aws/
+        ../../../.bash_history
+        ../../../.conda/
+        ../../../.condarc
+        ../../../.continuum/
+        ../../../.eclipse/
+        ../../../.gitconfig
+        ../../../.idlerc/
+        ../../../.ipynb_checkpoints/
+        ../../../.ipython/
+        ../../../.jdks/
+        ../../../.jupyter/
+        ../../../.lemminx/
+        ../../../.lesshst
+        ../../../.m2/
+        ../../../.minttyrc
+        ../../../.node_repl_history
+        ../../../.npmrc
+        ../../../.p2/
+        ../../../.redhat/
+        ../../../.streamlit/
+        ../../../.virtual_documents/
+        ../../../.vscode/
+        ../../../ASCII.JAVA
+        ../../../AppData/
+        ../../../Contacts/
+        ../../../Documents/
+        ../../../Downloads - Shortcut.lnk
+        ../../../Downloads/
+        ../../../Favorites/
+        ../../../GitDemo/
+        ../../../IdeaProjects/
+        ../../../Links/
+        ../../../Music/
+        ../../../NTUSER.DAT
+        ../../../NTUSER.DAT{0887067c-57c1-11ef-99d8-882ae00e6fc7}.TM.blf
+        ../../../NTUSER.DAT{0887067c-57c1-11ef-99d8-882ae00e6fc7}.TMContainer00000000000000000001.regtrans-ms
+        ../../../NTUSER.DAT{0887067c-57c1-11ef-99d8-882ae00e6fc7}.TMContainer00000000000000000002.regtrans-ms
+        ../../
+        ../../../Oracle/
+        ../../../Saved Games/
+        ../../../Searches/
+        ../../../Swap2.java
+        ../../../Untitled.ipynb
+        ../../../Untitled1.ipynb
+        ../../../Videos/
+        ../../../WPS Cloud Files/
+        ../../../all_gitbash_history.txt
+        ../../../ascii1.java
+        ../../../asciiword.java
+        ../../../bash
+        ../../../bloggerapp/
+        ../../../debug.log
+        ../../../eclipse-workspace/
+        ../../../example.log
+        ../../../git 1 bash.txt
+        ../../../gitbash_history.txt
+        ../../../hellow.java
+        ../../../ntuser.dat.LOG1
+        ../../../ntuser.dat.LOG2
+        ../../../ntuser.ini
+        ../../../package-lock.json
+        ../../../subarray/
+        ../../../sum.java
+        ../../../swap.java
+        ../../../welcome.log
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (GitNewBranch)
+$ ^C
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (GitNewBranch)
+$ cd ~/OneDrive/Desktop/mygitproject
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (GitNewBranch)
+$ git rev-parse --show-toplevel
+C:/Users/viswa
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (GitNewBranch)
+$ ^C
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (GitNewBranch)
+$ cd ~
+
+viswa@viswanath MINGW64 ~ (GitNewBranch)
+$ rm -rf .git
+
+viswa@viswanath MINGW64 ~
+$ cd ~/OneDrive/Desktop/mygitproject
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject
+$ git init
+Initialized empty Git repository in C:/Users/viswa/OneDrive/Desktop/mygitproject/.git/
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (master)
+$ git checkout -b GitNewBranch
+Switched to a new branch 'GitNewBranch'
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (GitNewBranch)
+$ git status
+On branch GitNewBranch
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (GitNewBranch)
+$ ^C
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (GitNewBranch)
+$ git add .
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (GitNewBranch)
+$ git commit -m "Initial commit"
+On branch GitNewBranch
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (GitNewBranch)
+$ git remote add origin https://gitlab.com/viswanathvenkatesan1328-group/gitdemo.git
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (GitNewBranch)
+$ git push -u origin GitNewBranch
+error: src refspec GitNewBranch does not match any
+error: failed to push some refs to 'https://gitlab.com/viswanathvenkatesan1328-group/gitdemo.git'
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (GitNewBranch)
+$ ^C
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (GitNewBranch)
+$ echo "Hello Git" > readme.txt
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (GitNewBranch)
+$ git add .
+warning: in the working copy of 'readme.txt', LF will be replaced by CRLF the next time Git touches it
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (GitNewBranch)
+$ git commit -m "Initial commit on GitNewBranch"
+[GitNewBranch (root-commit) 283d823] Initial commit on GitNewBranch
+ 1 file changed, 1 insertion(+)
+ create mode 100644 readme.txt
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (GitNewBranch)
+$ git push -u origin GitNewBranch
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 248 bytes | 248.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: To create a merge request for GitNewBranch, visit:
+remote:   https://gitlab.com/viswanathvenkatesan1328-group/gitdemo/-/merge_requests/new?merge_request%5Bsource_branch%5D=GitNewBranch
+remote:
+To https://gitlab.com/viswanathvenkatesan1328-group/gitdemo.git
+ * [new branch]      GitNewBranch -> GitNewBranch
+branch 'GitNewBranch' set up to track 'origin/GitNewBranch'.
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (GitNewBranch)
+$ git checkout master
+error: pathspec 'master' did not match any file(s) known to git
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (GitNewBranch)
+$ ^C
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (GitNewBranch)
+$ git branch -a
+* GitNewBranch
+  remotes/origin/GitNewBranch
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (GitNewBranch)
+$ ^C
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (GitNewBranch)
+$ git checkout -b main
+Switched to a new branch 'main'
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (main)
+$ git push -u origin main
+To https://gitlab.com/viswanathvenkatesan1328-group/gitdemo.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://gitlab.com/viswanathvenkatesan1328-group/gitdemo.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (main)
+$ ^C
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (main)
+$ git checkout main
+Already on 'main'
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (main)
+$ git pull origin main --allow-unrelated-histories
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 11 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (11/11), 3.63 KiB | 92.00 KiB/s, done.
+From https://gitlab.com/viswanathvenkatesan1328-group/gitdemo
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> origin/main
+Updating 283d823..719d0c5
+Fast-forward
+ .gitignore  |  2 ++
+ README.md   | 93 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ welcome.txt |  1 +
+ 3 files changed, 96 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 welcome.txt
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (main)
+$ ^C
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (main)
+$ git push -u origin main
+branch 'main' set up to track 'origin/main'.
+Everything up-to-date
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (main)
+$ git merge GitNewBranch
+Already up to date.
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (main)
+$ git push origin main
+Everything up-to-date
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (main)
+$ git log --oneline --graph --decorate
+*   719d0c5 (HEAD -> main, origin/main) Merge branch 'GitNewBranch' into 'main'
+|\
+| * 283d823 (origin/GitNewBranch, GitNewBranch) Initial commit on GitNewBranch
+* 1b081b9 Add .gitignore to ignore .log files and log folder
+* 38a707c added welcome.txt
+* a88218e Initial commit
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (main)
+$ ^C
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (main)
+$ git branch -d GitNewBranch        #
+Deleted branch GitNewBranch (was 283d823).
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (main)
+$ git push origin --delete GitNewBranch
+error: unable to delete 'GitNewBranch': remote ref does not exist
+error: failed to push some refs to 'https://gitlab.com/viswanathvenkatesan1328-group/gitdemo.git'
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (main)
+$ ^C
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (main)
+$ git branch -r
+  origin/GitNewBranch
+  origin/main
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (main)
+$ ^C
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (main)
+$ git push origin --delete GitNewBranch
+error: unable to delete 'GitNewBranch': remote ref does not exist
+error: failed to push some refs to 'https://gitlab.com/viswanathvenkatesan1328-group/gitdemo.git'
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (main)
+$ ^C
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (main)
+$ git ls-remote --heads origin
+719d0c594c107633ba9488c66ffa0a6542cf0bee        refs/heads/main
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (main)
+$ ^C
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (main)
+$ git push origin --delete GitNewBranch
+error: unable to delete 'GitNewBranch': remote ref does not exist
+error: failed to push some refs to 'https://gitlab.com/viswanathvenkatesan1328-group/gitdemo.git'
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (main)
+$ ^C
+
+viswa@viswanath MINGW64 ~/OneDrive/Desktop/mygitproject (main)
+$
